@@ -23,7 +23,8 @@ public class FindDuplicates {
 
 			// count the number of occurrences of the char ch in inputString
 			for (int j = 0; j < inputString.length(); j++) {
-				if (inputString.charAt(j) != ch) {
+				char chj=inputString.charAt(j);
+				if (chj != ch) {
 					continue;
 				}
 				count++;

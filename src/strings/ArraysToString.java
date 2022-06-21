@@ -20,6 +20,11 @@ public class ArraysToString {
 			sb.append(" ");
 		}
 		System.out.println(sb);
+		
+		for(String s1:s)
+		{
+			System.out.print(s1+" ");
+		}
 	}
 
 }

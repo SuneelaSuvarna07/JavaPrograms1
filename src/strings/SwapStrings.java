@@ -28,10 +28,10 @@ public class SwapStrings {
         System.out.println(s1.length());
         System.out.println(s2.length());
          s1=s1+s2;
-         System.out.println(s1);
-         s2=s1.substring(0,s1.length()-s2.length());
-         System.out.println(s2);
-         s1=s1.substring(s2.length());
+         System.out.println(s1);//suneelasuvarnaa
+         s2=s1.substring(0,s1.length()-s2.length()); //suneelasuvarnaa-suvarnaa=suneela
+         System.out.println(s2);//suneela
+         s1=s1.substring(s2.length());//suneelasuvarnaa-s2.length()
          System.out.println(s1);
          
  
